@@ -23,4 +23,13 @@ describe('ensure-range', function() {
 		});
 	});
 
+	it('(..., 1]', function() {
+		assert.equal(ensureRange(undefined, 1, 3), 1);
+		assert.equal(ensureRange(undefined, 1, -1), -1);
+	});
+
+	it('[1, ...)', function() {
+		assert.equal(ensureRange(1, undefined, 3), 3);
+		assert.equal(ensureRange(1, undefined, -1), 1);
+	});
 });
