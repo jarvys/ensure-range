@@ -1,6 +1,6 @@
 {
   "name": "ensue-range",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ensure number in specified range",
   "main": "index.js",
   "scripts": {
