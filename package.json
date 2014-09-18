@@ -1,0 +1,14 @@
+{
+  "name": "ensue-range",
+  "version": "0.0.0",
+  "description": "ensure number in specified range",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jarvys <yuhan534@126.com> (https://jarvys.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  }
+}
